@@ -23,5 +23,7 @@ function store() {
 
 function req() {
   no.innerHTML = "Yes";
+  no.style.scale =3;
+  no.style.backgroundColor ="green";
   ask.innerHTML = "Yes, I Love You Too..";
 }
