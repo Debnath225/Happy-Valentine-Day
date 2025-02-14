@@ -13,12 +13,24 @@ let ask = document.getElementById("ask");
 let me = 1;
 function store() {
   let person = prompt("What is your name ?");
-  if (person != null) {
-    ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
-  } else {
-    ask.innerHTML = "No Chetting...";
+  //if (person != null) {
+   // ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
+  //} else {
+  //  ask.innerHTML = "No Chetting...";
+//  }
+  //return (no.style.visibility = "visible");
+  switch(person){
+    case `${!=null}`:
+      ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
+      no.style.visibility = "visible";
+      break;
+    case `${null}`:
+      ask.innerHTML = "No Chetting...";
+      break;
+    case default:
+      ask.innerHTML = "Somthing Went Wrong";
+      break;
   }
-  return (no.style.visibility = "visible");
 }
 
 function req() {
