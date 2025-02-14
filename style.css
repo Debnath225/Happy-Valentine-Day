@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ask {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/007/224/812/non_2x/bubble-message-template-blue-color-vector.jpg);
+  background-size:contain;
+  background-position: 10px;
+   */
+  height: auto;
+  width: auto;
+  padding: 10px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-start-end-radius: 18px;
+  border-end-end-radius: unset;
+  border-bottom-left-radius: 18px;
+}
+.Mcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btnStyle {
+  border: 1.5px solid rgba(188, 188, 227, 0.6);
+  text-decoration: none;
+  height: 3.3rem;
+  width: 6.7rem;
+  border-radius: 2px;
+  background-color: rgb(241, 104, 127);
+}
+#no {
+  visibility: hidden;
+  font-size: 20px;
+  background-color: red;
+}
+#yes {
+  font-size: 20px;
+  background-color: rgba(0, 0, 255, 0.605);
+}
+.imgStyle {
+  height: 400px;
+  width: 300px;
+}
+.btnCon {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
