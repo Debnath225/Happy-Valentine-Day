@@ -13,13 +13,13 @@ let ask = document.getElementById("ask");
 let me = 1;
 function store() {
   let person = prompt("What is your name ?");
-  //if (person != null) {
-   // ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
-  //} else {
-  //  ask.innerHTML = "No Chetting...";
-//  }
-  //return (no.style.visibility = "visible");
-  switch(person){
+  if (person != null) {
+   ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
+  } else {
+   ask.innerHTML = "No Chetting...";
+}
+  return (no.style.visibility = "visible");
+/*  switch(person){
     case `${!=null}`:
       ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
       no.style.visibility = "visible";
@@ -32,7 +32,7 @@ function store() {
       break;
   }
 }
-
+*/
 function req() {
   no.innerHTML = "Yes";
   no.style.scale =7;
