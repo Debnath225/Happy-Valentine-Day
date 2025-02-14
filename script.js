@@ -12,7 +12,7 @@ let yes = document.getElementById("yes");
 let ask = document.getElementById("ask");
 let me = 1;
 function store() {
-  let person = prompt("Please enter your name :");
+  let person = prompt("What is your name ?");
   if (person != null) {
     ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
   } else {
