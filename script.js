@@ -33,6 +33,7 @@ function store() {
   }
 }
 */
+}
 function req() {
   no.innerHTML = "Yes";
   no.style.scale =7;
