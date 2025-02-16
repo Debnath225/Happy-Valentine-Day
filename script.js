@@ -39,7 +39,8 @@ function lov() {
 
 function get() {
   no.innerHTML = "Yes";
-  no.style.scale = 7;
+  no.style.backgroundColor:"green";
+  no.style.scale = 6;
 }
 
 function go() {}
