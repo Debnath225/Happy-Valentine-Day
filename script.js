@@ -16,7 +16,7 @@ function store() {
   if (person != null) {
    ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
   } else {
-   ask.innerHTML = "No Chetting...";
+   ask.innerHTML = "No Cheating...";
     return 0;
 }
   no.style.visibility = "visible";
