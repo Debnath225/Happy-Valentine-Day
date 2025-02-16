@@ -42,5 +42,3 @@ function get() {
   no.style.backgroundColor="green";
   no.style.scale = 6;
 }
-
-function go() {}
