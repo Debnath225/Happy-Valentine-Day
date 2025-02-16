@@ -17,6 +17,7 @@ function store() {
    ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
   } else {
    ask.innerHTML = "No Chetting...";
+    return 0;
 }
   return (no.style.visibility = "visible");
 /*  switch(person){
