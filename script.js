@@ -10,35 +10,36 @@
 let no = document.getElementById("no");
 let yes = document.getElementById("yes");
 let ask = document.getElementById("ask");
-let me = 1;
-function store() {
-  let person = prompt("What is your name ?");
+let love = document.getElementById("love");
+
+function Qustion() {
+  let person = prompt("What Is Your Name ?");
   if (person != null) {
-   ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
+    ask.innerHTML = `Hi Miss ${person} Will You Be My Valentine ?`;
+    no.style.visibility = "visible";
+    yes.style.visibility = "hidden";
+    let elem = document.createElement("button");
+    let node = document.createTextNode("Yes ❤");
+    elem.appendChild(node);
+    love.appendChild(elem);
+    // elem.style.height = "3.2rem";
+    // elem.style.width = "6.7rem";
+    // elem.style.backgroundColor = "green";
+    // elem.style.borderRadius = "2px";
+    // elem.style.fontSize = "20px";
+    elem.classList.add("btnStyle", "YES");
   } else {
-   ask.innerHTML = "No Cheating...";
+    ask.innerHTML = "No Cheating....";
     return 0;
-}
-  no.style.visibility = "visible";
-  return (yes.disabled = true);
-/*  switch(person){
-    case `${!=null}`:
-      ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
-      no.style.visibility = "visible";
-      break;
-    case `${null}`:
-      ask.innerHTML = "No Chetting...";
-      break;
-    case default:
-      ask.innerHTML = "Somthing Went Wrong";
-      break;
   }
 }
-*/
+function lov() {
+  ask.innerHTML = "I Love You Too..";
 }
-function req() {
+
+function get() {
   no.innerHTML = "Yes";
-  no.style.scale =7;
-  no.style.backgroundColor ="green";
-  ask.innerHTML = "Yes, I Love You Too..";
+  no.style.scale = 7;
 }
+
+function go() {}
