@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  background-color:#e2e2e2;
+}
 header {
   display: flex;
   align-items: center;
@@ -17,8 +20,8 @@ header {
    */
   height: auto;
   width: auto;
-  padding: 10px;
-  background-color: antiquewhite;
+  padding: 8px;
+  background-color: blue;
   border: 2px solid black;
   border-start-end-radius: 18px;
   border-end-end-radius: unset;
