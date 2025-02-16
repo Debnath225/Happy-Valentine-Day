@@ -19,7 +19,8 @@ function store() {
    ask.innerHTML = "No Chetting...";
     return 0;
 }
-  return (no.style.visibility = "visible",yes.disabled = true;);
+  no.style.visibility = "visible";
+  return (yes.disabled = true);
 /*  switch(person){
     case `${!=null}`:
       ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
