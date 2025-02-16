@@ -14,7 +14,7 @@ let love = document.getElementById("love");
 
 function Qustion() {
   let person = prompt("What Is Your Name ?");
-  if (person != null) {
+  if (person != 0) {
     ask.innerHTML = `Hi Miss ${person} Will You Be My Valentine ?`;
     no.style.visibility = "visible";
     yes.style.visibility = "hidden";
@@ -28,9 +28,6 @@ function Qustion() {
     // elem.style.borderRadius = "2px";
     // elem.style.fontSize = "20px";
     elem.classList.add("btnStyle", "YES");
-  }elseif(person == 0){
-ask.innerHTML = "No Cheating....";
-    return 0;
   }
   else {
     ask.innerHTML = "No Cheating....";
