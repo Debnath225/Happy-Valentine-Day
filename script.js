@@ -28,7 +28,11 @@ function Qustion() {
     // elem.style.borderRadius = "2px";
     // elem.style.fontSize = "20px";
     elem.classList.add("btnStyle", "YES");
-  } else {
+  }elseif(person == null){
+ask.innerHTML = "No Cheating....";
+    return 0;
+  }
+  else {
     ask.innerHTML = "No Cheating....";
     return 0;
   }
