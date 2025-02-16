@@ -31,6 +31,7 @@
       h1{
         font-size:26px;
         font-family:cursive,Arial;
+        animation: trn ease-in-out infinite;
       }
      #Ophoto{
      animation:blink ease-in 5;
@@ -39,6 +40,9 @@
        from{scale:1}
       to{scale:5}
       }
+      @keyframes trn{
+        0%{transform: translateY(0px);}
+           100%{transform: translateY(-120px);}
     </style>
   </head>
   <body>
