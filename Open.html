@@ -31,15 +31,15 @@
       h1{
         font-size:26px;
         font-family:cursive,Arial;
-        animation: trn ease-in-out infinite;
+        animation: trn ease-in-out 2s infinite;
       }
      #Ophoto{
-     animation:blink ease-in 5;
+     animation:blink ease-in 5s 5;
      }
-      @keyframes blink{
+      @keyframes blink(
        from{scale:1}
       to{scale:5}
-      }
+      
       @keyframes trn{
         0%{transform: translateY(0px);}
            100%{transform: translateY(120px);}
