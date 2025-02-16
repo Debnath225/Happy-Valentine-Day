@@ -31,6 +31,7 @@ function Qustion() {
   }
   else {
     ask.innerHTML = "No Cheating....";
+    no.style.visibility = "hidden";
     return 0;
   }
 }
