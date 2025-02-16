@@ -13,7 +13,7 @@ let ask = document.getElementById("ask");
 let love = document.getElementById("love");
 
 function Qustion() {
-  let person = prompt("What Is Your Name ?");
+  let person = prompt("What Is Your Name ?,Enter Your Name");
   let store =person;
   if ( store!= null) {
     ask.innerHTML = "Hi Miss "+store+" Will You Be My Valentine ?";
