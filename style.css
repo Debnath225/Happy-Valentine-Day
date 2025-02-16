@@ -28,6 +28,7 @@ header {
   border-start-end-radius: 18px;
   border-end-end-radius: unset;
   border-bottom-left-radius: 18px;
+  box-shadow: 3.6px 7.2px 7.2px hsl(0deg 0% 0% / 0.39);
 }
 .Mcon {
   display: flex;
