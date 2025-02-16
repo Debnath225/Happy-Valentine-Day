@@ -15,7 +15,7 @@ let love = document.getElementById("love");
 function Qustion() {
   let person = prompt("What Is Your Name ?");
   let store =person;
-  if ( store!= undefined) {
+  if ( store!= null) {
     ask.innerHTML = "Hi Miss "+store+" Will You Be My Valentine ?";
     no.style.visibility = "visible";
     yes.style.visibility = "hidden";
