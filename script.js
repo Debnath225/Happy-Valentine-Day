@@ -14,8 +14,9 @@ let love = document.getElementById("love");
 
 function Qustion() {
   let person = prompt("What Is Your Name ?");
-  if (person.toUpperCase() !== null) {
-    ask.innerHTML = "Hi Miss "+person+" Will You Be My Valentine ?";
+  let store =person.toUpperCase();
+  if ( store!= null) {
+    ask.innerHTML = "Hi Miss "+store+" Will You Be My Valentine ?";
     no.style.visibility = "visible";
     yes.style.visibility = "hidden";
     let elem = document.createElement("button");
