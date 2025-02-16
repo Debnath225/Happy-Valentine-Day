@@ -15,12 +15,11 @@ function store() {
   let person = prompt("What is your name ?");
   if (person != null) {
    ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
-    yes.disabled = true;
   } else {
    ask.innerHTML = "No Chetting...";
     return 0;
 }
-  return (no.style.visibility = "visible");
+  return (no.style.visibility = "visible",yes.disabled = true;);
 /*  switch(person){
     case `${!=null}`:
       ask.innerHTML = "Hello, " + person + " Will You Be My Valentine?";
