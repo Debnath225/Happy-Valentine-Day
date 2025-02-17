@@ -13,10 +13,10 @@ let ask = document.getElementById("ask");
 let love = document.getElementById("love");
 
 function Qustion() {
-  let person = prompt("What Is Your Name ?");
+  let person = prompt("What Is Your Name ?", "Enter Name Here...");
   let store =person;
   if ( store!= null) {
-    ask.innerHTML = "Hi, "+store+" Will You Be My Valentine ?", "Enter Name Here...";
+    ask.innerHTML = "Hi, "+store+" Will You Be My Valentine ?";
     no.style.visibility = "visible";
     yes.style.visibility = "hidden";
     let elem = document.createElement("button");
