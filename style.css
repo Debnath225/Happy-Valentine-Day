@@ -55,8 +55,9 @@ header {
   background-color: rgba(0, 0, 255, 0.605);
 }
 .imgStyle {
+  filter: drop-shadow(0 0 0.60rem);
   height: 400px;
-  width: 300px;
+  width: 350px;
 }
 .btnCon {
   display: flex;
