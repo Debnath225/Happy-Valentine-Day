@@ -16,7 +16,7 @@ function Qustion() {
   let person = prompt("What Is Your Name ?");
   let store =person;
   if ( store!= null) {
-    ask.innerHTML = "Hi Miss "+store+" Will You Be My Valentine ?";
+    ask.innerHTML = "Hi, "+store+" Will You Be My Valentine ?";
     no.style.visibility = "visible";
     yes.style.visibility = "hidden";
     let elem = document.createElement("button");
